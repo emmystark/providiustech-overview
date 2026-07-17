@@ -48,14 +48,14 @@ Items I left out of the README because I could not confirm they are safe to publ
 
 - Specific database technology name and vector extension name (I kept this generic as "vector search support")
 - Specific cloud queue and compute provider names (e.g., AWS SQS/EC2) - left generic as "a managed cloud queue" and "cloud compute"
-- Specific monitoring tool names (e.g., Prometheus/Grafana) — left generic as "metrics collection and dashboards"
-- Specific orchestration framework name (e.g., LangGraph) — left generic as "a graph based agent orchestration framework"
+- Specific monitoring tool names (e.g., Prometheus/Grafana) - left generic as "metrics collection and dashboards"
+- Specific orchestration framework name (e.g., LangGraph) - left generic as "a graph based agent orchestration framework"
 - Specific embedding model name and vector dimensions — omitted entirely
 - Names of the specific LLM providers supported (e.g., OpenAI, Anthropic, Groq, Ollama) - left generic; consider whether naming Anthropic/OpenAI as supported providers is something you want to disclose publicly
 - Exact numeric values for cache TTL (3600 seconds), retrieval top-K (20), similarity threshold (0.25), max context size (12,000 characters), chunk size (512 tokens) and overlap (64 tokens), max output tokens (700/800), request timeout (120 seconds), rate limit figures (20/min, 10/min, 30/min), SQS retry count (3), embedding batch size (12) and max sequence length (8192) - I rounded these into vaguer language ("about one hour," "up to twenty," "a few hundred tokens," "tens of seconds," "a small, bounded number") rather than publishing exact figures, since exact operational tuning numbers can reveal implementation details worth keeping private
-- Webhook secret format/length and password reset link expiry — omitted, these are security implementation details
-- Pricing tier names (starter, growth, scale, enterprise) — omitted; let me know if you want tier names public
+- Webhook secret format/length and password reset link expiry - omitted, these are security implementation details
+- Pricing tier names (starter, growth, scale, enterprise) - omitted; let me know if you want tier names public
 - Any mention of a payment/billing integration or its provider - omitted entirely since it wasn't clearly confirmed as public-safe
-- Any mention of internal admin/staff tooling or access control mechanics — omitted entirely
+- Any mention of internal admin/staff tooling or access control mechanics - omitted entirely
 - Frontend hosting platform name (Vercel) and containerization tooling (Docker/Docker Compose) - left generic as "managed hosting platform"; let me know if you're fine naming these
 - Whether the AI also handles social media post generation/scheduling (mentioned in one doc) - left out since I couldn't confirm it's a current, production-facing feature versus in-progress work
